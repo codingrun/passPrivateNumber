@@ -30,7 +30,6 @@
     }
 
     window.onload = function () {
-        console.log('load!!')
         setTimeout(() => {
             const sections = document.getElementsByClassName('w-80 bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4');
             if(!sections.length) return;
@@ -41,7 +40,6 @@
                 if(!entry.isIntersecting) {
                     submitNumber()
                 }
-                console.log(entry);
             })
 
             io.observe(sections[0]);
