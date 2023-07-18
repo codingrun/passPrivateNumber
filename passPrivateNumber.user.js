@@ -4,6 +4,9 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       codingrun
+// @match        https://admin-int.unban.ai/login
+// @match        http://localhost:3200/login
+// @match        http://localhost:3200/en/login
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @grant        none
 // ==/UserScript==
